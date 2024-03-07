@@ -96,6 +96,13 @@ class albañeria(Servicio):
         pass
     
     def materiales (self):
+        print("herramientas a usar")  
+        
+class serviciosmecanicos(Servicio):
+    def __init__(self):
+        pass
+    
+    def materiales (self):
         print("herramientas a usar")        
         
 class ServicioAtencion:
